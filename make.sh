@@ -59,6 +59,9 @@ case $1 in
   xiao)
     DEVICE=xiao
     ;;
+  skrpico)
+    DEVICE=skrpico
+    ;;
   *)
     echo "invalid device \"$1\""
     _help 1
